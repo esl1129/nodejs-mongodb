@@ -20,8 +20,8 @@ exports.create = (req, res) => {
 
     console.log(tutorial);
     // Save document 
-    Tutorial
-        .save(tutorial)
+    tutorial
+        .save()
         .then(data => {
             res.send(data);
         })

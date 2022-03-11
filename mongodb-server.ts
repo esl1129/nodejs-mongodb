@@ -9,7 +9,7 @@ const corsOptions = {
 };
 
 const PORT = process.env.PORT || 8080;
-
+console.log(process.env);
 // Set CORS option 
 app.use(cors(corsOptions));
 

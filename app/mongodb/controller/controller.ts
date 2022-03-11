@@ -1,5 +1,4 @@
-const db = require('../model/index.ts');
-const Tutorial = db.tutorial;
+const Tutorial = require('../model/index.ts').tutorial;
 // Create document 
 exports.create = (req, res) => {
     // Validate request 

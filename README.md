@@ -2,4 +2,4 @@
 
 Node.js &amp; TypeScript &amp; MongoDB
 
-2022. 3. 24 : Terminate GCP Server
+24, Mar, 2022 : Terminate GCP Server
